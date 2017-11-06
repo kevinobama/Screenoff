@@ -7,9 +7,10 @@ package com.example.kevingates.screenoff;
 import android.view.Window;
 import android.view.WindowManager;
 
+import java.net.*;
+import java.io.*;
+
 public class WindowsUtils {
-//    private WindowsUtils() {
-//    }
 
     public static void lockScreenDim(Window window, boolean lock) {
         if (lock) {
@@ -22,5 +23,11 @@ public class WindowsUtils {
     public String  addWord(String word) {
 
         return word;
+    }
+
+    public String getCurl(String link) {
+
+
+        return "gates";
     }
 }
